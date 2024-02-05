@@ -61,7 +61,7 @@ st.markdown(
 
 
 # Initialiser ChatOpenAI-modellen
-API = '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'
+API = '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'
 chat = ChatOpenAI(temperature=0.5, model_name="gpt-4-0125-preview", openai_api_key=API, verbose=True)
 
 # Initialiser session state for å lagre meldinger
